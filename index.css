@@ -1,3 +1,7 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 body {
   /* background-color: #8381b7; */
   background-color: #1992a8;
@@ -30,13 +34,14 @@ main {
 
 .js-clock {
   font-weight: 700;
-  font-size: 100px;
+  font-size: 110px;
   text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
-  margin-top: 0px;
+  margin-top: -18px;
   margin-bottom: 18px;
 }
 .js-date {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0px;
 }
 
 .btn {
