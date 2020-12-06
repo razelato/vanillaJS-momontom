@@ -65,13 +65,13 @@ function handleSubmit(event) {
 }
 
 function loadToDos() {
+  allRemove.addEventListener("click", handleAllRemove);
   const loadedToDos = localStorage.getItem(TODOS_LS);
   if (loadedToDos !== null) {
     const parsedToDos = JSON.parse(loadedToDos);
     parsedToDos.forEach(function (toDo) {
       paintToDo(toDo.text);
     });
-    allRemove.addEventListener("click", handleAllRemove);
   }
 }
 
